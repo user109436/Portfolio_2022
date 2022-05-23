@@ -1,0 +1,51 @@
+.link {
+  &__reference:hover {
+    text-decoration: underline;
+  }
+}
+.btn {
+  padding: 1rem 4rem;
+  border: none;
+  color: $color-light;
+  &-primary {
+    background-color: $color-dark;
+  }
+  &-rounded {
+    border-radius: 100px;
+  }
+}
+.box {
+  background-color: $color-light;
+  box-shadow: -1rem 1rem 0 $color-grey-light;
+}
+.box-blue {
+  background-color: $color-blue-dark;
+  padding: 1rem;
+  color: $color-light;
+  box-shadow: -1rem 1rem 0 $color-blue-light;
+}
+.skillset {
+  &__title {
+    width: 100%;
+    text-align: center;
+  }
+  &__box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 50%;
+  }
+  &__images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+.title {
+  width: 20rem;
+}
+.card-landscape {
+  background-color: $color-light;
+  padding: 2rem 3rem;
+}

@@ -1,0 +1,91 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+html {
+  font-size: 80%;
+}
+body {
+  box-sizing: border-box;
+  font-family: "Open Sans";
+  font-weight: 400;
+  background-color: $color-grey;
+  text-align: justify;
+}
+a {
+  text-decoration: none;
+}
+.no-bg {
+  background-color: transparent;
+}
+//typography
+//utilities
+.u-shadow-fix {
+  box-shadow: 0 0.5px 0.8px rgba($color-black, 0.15);
+}
+.u-shadow-sm {
+  box-shadow: 0 1.5rem 4rem rgba($color-black, 0.15);
+}
+.u-text-uppercase {
+  text-transform: uppercase;
+}
+.u-text-lowercase {
+  text-transform: lowercase;
+}
+.font-bold {
+  font-weight: bold;
+}
+.u-mb-sm {
+  margin-bottom: 1rem;
+}
+.u-mb-m {
+  margin-bottom: 1.5rem;
+}
+.u-mt-sm {
+  margin-top: 1rem;
+}
+.u-mt-m {
+  margin-top: 1.5rem;
+}
+.u-mt-lg {
+  margin-top: 2.5rem;
+}
+.u-mt-xl {
+  margin-top: 5.5rem;
+}
+.u-m-y-m {
+  margin: 2rem 0;
+}
+.u-p-m {
+  padding: 2rem;
+}
+.u-p-xl {
+  padding: 5.5rem;
+}
+.u-px-lg {
+  padding: 0 2.5rem;
+}
+.order-1 {
+  order: 1;
+}
+.justify-content-end {
+  display: flex;
+  justify-content: end;
+}
+.justify-content-center {
+  display: flex;
+  justify-content: center;
+}
+.u-100vh {
+  height: 100vh;
+}
+.u-100w {
+  width: 100%;
+}
+.u-border-light {
+  border: 0.7rem solid $color-light;
+}
+//animations

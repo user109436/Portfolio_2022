@@ -1,0 +1,201 @@
+@media only screen and (max-width: 1024px) {
+  .u-p-m {
+    padding: 1.2rem;
+  }
+  html {
+    font-size: 70%;
+  }
+
+  .details {
+    &__certification {
+      & a img {
+        height: 15rem;
+      }
+    }
+  }
+  .res-center {
+    &-image-box {
+      width: 60%;
+    }
+    &-description {
+      width: 80%;
+    }
+  }
+
+  .project {
+    &__image img {
+      height: 20rem;
+    }
+  }
+  footer {
+    height: 20vh;
+  }
+}
+
+@media only screen and (max-width: 830px) {
+  .u-p-m {
+    padding: 2rem;
+  }
+  .u-mt-xl {
+    margin-top: 2.5rem;
+  }
+  html {
+    font-size: 65%;
+  }
+  .menu-icon {
+    display: block;
+  }
+  .navigation {
+    display: none;
+    &__items {
+      flex-direction: column;
+      justify-content: center;
+      width: 100%;
+      &--item {
+        text-align: center;
+      }
+    }
+  }
+  .navigation-visible {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+  .details {
+    flex-wrap: wrap;
+    &__summary {
+      flex: 1;
+      order: 1;
+    }
+    &__certification {
+      width: 100%;
+      & a img {
+        height: 20rem;
+      }
+    }
+  }
+  .res-center {
+    &-image-box {
+      width: 100%;
+    }
+  }
+  .project {
+    &__image img {
+      height: 18rem;
+    }
+  }
+  footer {
+    height: 20vh;
+  }
+}
+
+@media only screen and (max-width: 680px) {
+  .about {
+    &__img {
+      height: 20rem;
+    }
+  }
+  .skillset {
+    &__images {
+      margin: 1rem;
+    }
+    &__box {
+      width: 100%;
+    }
+  }
+  .res-no-order {
+    order: 0;
+  }
+  .project {
+    &__image img {
+      height: 15rem;
+    }
+  }
+  footer {
+    height: 20vh;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .about {
+    margin-top: 5rem;
+    &__img {
+      height: 15rem;
+    }
+    &__right {
+      width: 100%;
+      order: -1;
+    }
+  }
+  .details {
+    &__certification {
+      & a img {
+        height: 13rem;
+      }
+    }
+  }
+  .section-skill-set {
+    margin-top: 5rem;
+  }
+  .skillset {
+    &__title {
+      display: flex;
+      justify-content: center;
+    }
+  }
+  .project {
+    &__image img {
+      height: 13rem;
+    }
+  }
+  .box {
+    box-shadow: 0 0.5rem 0.5rem $color-grey-light;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  .section-about-me {
+    height: 100%;
+  }
+  .details {
+    &__certification {
+      justify-content: center;
+      flex-wrap: wrap;
+      & a {
+        display: flex;
+        justify-content: center;
+        margin: 1rem;
+      }
+    }
+  }
+  .skillset {
+    &__images img {
+      height: 4rem;
+    }
+  }
+  .project {
+    &__image {
+      width: 100%;
+    }
+  }
+}
+
+@media only screen and(max-width:375px) {
+  main {
+    padding: 0 1rem;
+  }
+  .about {
+    &__text {
+      width: 100%;
+      & h1 {
+        font-size: $font-size-xl;
+        text-align: center;
+      }
+    }
+  }
+  .skillset {
+    &__images img {
+      height: 3rem;
+    }
+  }
+}
