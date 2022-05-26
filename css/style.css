@@ -18,6 +18,9 @@ body {
 a {
   text-decoration: none; }
 
+.subtitle {
+  color: #4670f5; }
+
 .no-bg {
   background-color: transparent; }
 
@@ -95,8 +98,10 @@ a {
 .enlarge-one-half:hover {
   transform: scale(1.5, 1.5); }
 
-.link__reference:hover {
-  text-decoration: underline; }
+.link {
+  color: #4670f5; }
+  .link__reference:hover {
+    text-decoration: underline; }
 
 .btn {
   padding: 1rem 4rem;
