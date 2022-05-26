@@ -89,3 +89,12 @@ a {
   border: 0.7rem solid $color-light;
 }
 //animations
+.animated-normal {
+  transition: 0.3s ease-out;
+}
+.enlarge:hover {
+  transform: scale(1.1, 1.1);
+}
+.enlarge-one-half:hover {
+  transform: scale(1.5, 1.5);
+}
