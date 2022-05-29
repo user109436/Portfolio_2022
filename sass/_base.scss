@@ -42,6 +42,9 @@ a {
 .font-bold {
   font-weight: bold;
 }
+.font-normal {
+  font-weight: normal;
+}
 .u-mb-sm {
   margin-bottom: 1rem;
 }
@@ -82,6 +85,16 @@ a {
 .justify-content-center {
   display: flex;
   justify-content: center;
+}
+.justify-content-evenly {
+  display: flex;
+  justify-content: space-evenly;
+}
+.flex-direction-col {
+  flex-direction: column;
+}
+.flex-wrap {
+  flex-wrap: wrap;
 }
 .u-100vh {
   height: 100vh;

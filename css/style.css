@@ -40,6 +40,9 @@ a {
 .font-bold {
   font-weight: bold; }
 
+.font-normal {
+  font-weight: normal; }
+
 .u-mb-sm {
   margin-bottom: 1rem; }
 
@@ -81,6 +84,16 @@ a {
   display: flex;
   justify-content: center; }
 
+.justify-content-evenly {
+  display: flex;
+  justify-content: space-evenly; }
+
+.flex-direction-col {
+  flex-direction: column; }
+
+.flex-wrap {
+  flex-wrap: wrap; }
+
 .u-100vh {
   height: 100vh; }
 
@@ -105,11 +118,18 @@ a {
     text-decoration: underline; }
 
 .btn {
-  padding: 1rem 4rem;
+  padding: 0.8rem 1.3rem;
   border: none;
   color: #fff; }
   .btn-primary {
     background-color: #707070; }
+  .btn-secondary:hover {
+    background-color: #4670F5;
+    color: #fff; }
+  .btn-secondary {
+    background-color: transparent;
+    color: #4670F5;
+    border: 1px solid #4670F5; }
   .btn-rounded {
     border-radius: 100px; }
 
